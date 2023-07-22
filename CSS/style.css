@@ -16,20 +16,25 @@
     padding: 0.25rem 0.7rem;
     border-radius: 6px;
 }
+.fa-brands, .fa-solid {
+    font-size: 1.35rem;
+    margin-right: 0.25rem;
+}
 
-
+.fa-twitter {
+    color: #14AED0;
+}
+.fa-facebook {
+    color: #1476D0;
+}
+.fa-instagram {
+    color: #CE0CFF;
+}
+.fa-square-whatsapp {
+    color: #25D366;
+}
 @media screen and (min-width: 768px) {
-    #logo-nav {
-        display: none;
-    }
     #nav-list {
-        display: flex;
-        justify-content: space-evenly;
         width: 100%;
     }
-    .noticia {
-        width: 35%;
-        margin: 1.5rem;
-    }
-    
 }
