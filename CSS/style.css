@@ -3,7 +3,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-
 .navbar, footer {
     background-color: #00425A !important;
     color: #EFF5F5 !important;
@@ -85,5 +84,4 @@ a {
 
 h5 {
   color: #FC7300 , #1F8A70, #00425A, #181823,#EFF5F5 ;
-
 }
