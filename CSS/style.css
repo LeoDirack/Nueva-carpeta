@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.navbar, footer {
+    background-color: #00425A !important;
+    color: #EFF5F5 !important;
+}
+
 #hero {
     height: 21rem;
     background-image: url(../IMG/instituto.jpg) ;
@@ -9,12 +20,43 @@
     align-items: center;
 }
 
+h2 {
+    font-weight: bold;
+    color: #FC7300;
+}
+
 #titulo {
     color: #FC7300;
-    background-color: aquamarine;
+    background-color: #00425A;
+    font-weight: bold;
     font-size: 2.5rem;
     padding: 0.25rem 0.7rem;
     border-radius: 6px;
+}
+.subtitulo {
+    font-weight: 700;
+    color: #00425A;
+}
+.noticia {
+    border-style: solid;
+    border-color: #FC7300;
+    margin: 1rem;
+}
+#contacto {
+    background-color: #00425A;
+    border-radius: 0;
+    width: 100%;
+    text-align: center;
+}
+.btn-primary {
+    background-color: #00425A;
+}
+.footer {
+    padding: 1.25rem;
+    margin: 0;
+}
+a {
+    color: #EFF5F5 !important;
 }
 .fa-brands, .fa-solid {
     font-size: 1.35rem;
@@ -37,4 +79,11 @@
     #nav-list {
         width: 100%;
     }
+}
+
+/* paleta de colores */
+
+h5 {
+  color: #FC7300 , #1F8A70, #00425A, #181823,#EFF5F5 ;
+
 }
