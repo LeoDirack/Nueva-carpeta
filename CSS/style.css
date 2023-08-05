@@ -1,12 +1,25 @@
+/* Google Fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Estilos de fuente */
+
 * {
     font-family: 'Roboto', sans-serif;
 }
+
+/* Navbar y Footer */
 
 .navbar, footer {
     background-color: #00425A !important;
     color: #EFF5F5 !important;
 }
+.footer {
+    padding: 1.25rem;
+    margin: 0;
+}
+
+/* Hero */
 
 #hero {
     height: 21rem;
@@ -19,11 +32,12 @@
     align-items: center;
 }
 
+/* Títulos */
+
 h2 {
     font-weight: bold;
     color: #FC7300;
 }
-
 #titulo {
     color: #FC7300;
     background-color: #00425A;
@@ -32,41 +46,50 @@ h2 {
     padding: 0.25rem 0.7rem;
     border-radius: 6px;
 }
+
+/* Subtítulos */
+
 .subtitulo {
     font-weight: 700;
     color: #00425A;
 }
+
+/* Imágenes circulares */
+
 .circulo {
     width: 80%;
     border-radius: 50%;
 }
+
+/* Noticias */
+
 .noticia {
     border-style: solid;
     border-color: #FC7300;
     padding: 0.75rem;
     margin: 1rem;
 }
+
+/* Botones y enlaces */
+
 #contacto {
-    background-color: #00425A;
     border-radius: 0;
     width: 100%;
     text-align: center;
 }
-.btn-primary {
+.btn-primary, #contacto {
     background-color: #00425A;
-}
-.footer {
-    padding: 1.25rem;
-    margin: 0;
 }
 a {
     color: #EFF5F5 !important;
 }
+
+/* Íconos */
+
 .fa-brands, .fa-solid {
     font-size: 1.35rem;
     margin-right: 0.25rem;
 }
-
 .fa-twitter {
     color: #14AED0;
 }
@@ -79,6 +102,9 @@ a {
 .fa-square-whatsapp {
     color: #25D366;
 }
+
+/* Media Query para dispositivos grandes */
+
 @media screen and (min-width: 768px) {
     #nav-list {
         width: 100%;
